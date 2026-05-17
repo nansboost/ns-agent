@@ -1,0 +1,15 @@
+// @ts-nocheck
+let handler = async (m, { conn }) => {
+let q = m.quoted ? m.quoted : m
+try {
+let media = await q.download?.()
+let caption = q.text || ''
+await conn.sendFile(m.chat, media, null, caption, m, null, fwc)
+} catch (e) {
+m.reply('✳️ Itu bukan pesan View Once.')
+}
+}
+handler.help = ['readvo']
+handler.tags = ['tools']
+handler.command = ['readviewonce', 'read', 'rvo', 'readvo']
+export default handler

@@ -1,0 +1,46 @@
+# dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# private config/session/runtime
+.env
+.env.*
+database.json
+sessions/
+session/
+tmp/
+logs/
+*.log
+**/auth.json
+**/creds.json
+**/*token*
+**/*secret*
+**/*credential*
+**/*cookie*
+**/*session*
+
+# AI agent/runtime state
+.ns-agent/
+lib/agent-data/*.json
+!lib/agent-data/.gitkeep
+!lib/agent-data/reports/.gitkeep
+lib/agent-data/reports/*.md
+lib/jid-data/*.json
+!lib/jid-data/.gitkeep
+
+# generated/backup bot folders
+bebots/
+jadibot/
+clonebot/
+
+# workspace temp
+ws/tmp/*
+!ws/tmp/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

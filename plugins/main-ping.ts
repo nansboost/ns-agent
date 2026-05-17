@@ -1,0 +1,18 @@
+// @ts-nocheck
+
+import { performance } from 'perf_hooks'
+import { spawn, exec, execSync } from 'child_process'
+let handler = async (m, { conn }) => {
+         let timestamp = performance.now();
+         let latensi = performance.now() - timestamp;
+         exec(`neofetch --stdout`, (error, stdout, stderr) => {
+          let child = stdout.toString("utf-8");
+          let ssd = child.replace(/Memory:/, "Ram:");
+          m.reply(`🟢 *ping* : ${latensi.toFixed(4)} _ms_`, null, "");
+            });
+}
+handler.help = ['ping']
+handler.tags = ['main']
+handler.command = ['ping', 'speed']
+
+export default handler

@@ -1,0 +1,22 @@
+// @ts-nocheck
+import cp from 'child_process'
+import { promisify } from 'util'
+let exec = promisify(cp.exec).bind(cp)
+let handler = async (m, { conn, usedPrefix, command }) => {
+m.react(rwait)
+let o
+try {
+o = await exec('python3 speed.py --share --secure')
+} catch (e) {
+o = e
+} finally {
+let { stdout, stderr } = o
+if (stdout.trim()) conn.loadingMsg(m.chat, 'Memuat', `*≡ SPEEDTEST.NET*\n\n${stdout}`, ['↷', '↻', '⟳', '↷', '↻', '⟳'], m)
+if (stderr.trim()) m.reply(stderr, null, fwc)
+m.react(done)
+}
+}
+handler.help = ['speedtest']
+handler.tags = ['main']
+handler.command = /^(speedtest|testspeed)$/i
+export default handler
