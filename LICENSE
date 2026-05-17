@@ -1,201 +1,66 @@
-NS AGENT
-        Versi Modifikasi Berdasarkan SENNA BOT
+         NS AGENT LICENSE
 
-Berdasarkan GNU General Public License v3.0
-dengan ketentuan tambahan dari pemilik asli SENNA BOT.
+Versi Modifikasi Berdasarkan SENNA BOT
 
 Copyright (C) 2026 FG98 / Dylux
 Copyright (C) 2026 nansoffc
 
-=================================================================
-PENJELASAN
-=================================================================
-
 NS Agent adalah versi modifikasi dari SENNA BOT.
 
-Proyek asli:
-SENNA BOT
+SENNA BOT dibuat oleh FG98 / Dylux menggunakan JavaScript ESM.
+NS Agent dimodifikasi dan dikembangkan ulang oleh nansoffc menggunakan TypeScript.
 
-Pemilik / pembuat asli:
-FG98 / Dylux
+Versi modifikasi ini dipublikasikan dengan izin dari pemilik script asli.
 
-Versi modifikasi oleh:
-nansoffc
+Lisensi ini mengikuti lisensi SENNA BOT yang merujuk pada GNU General Public License v3.0 dengan ketentuan tambahan dari pemilik asli.
 
-Versi ini dipublikasikan dengan izin dari pemilik script asli.
 
-Lisensi ini mengikuti ketentuan lisensi asli SENNA BOT, yaitu
-berdasarkan GNU General Public License v3.0 dengan beberapa syarat
-tambahan yang ditetapkan oleh pemilik asli.
-
-=================================================================
-STATUS MODIFIKASI DAN PERBEDAAN TEKNOLOGI
-=================================================================
-
-SENNA BOT sebagai proyek asli dibuat menggunakan JavaScript dengan
-module system ESM.
-
-NS Agent sebagai versi modifikasi dibuat, dirapikan, dan dikembangkan
-ulang menggunakan TypeScript.
-
-Perubahan bahasa pemrograman dari JavaScript ESM ke TypeScript tidak
-menghapus hubungan proyek ini dengan SENNA BOT sebagai basis awal.
-
-Oleh karena itu, NS Agent tetap mencantumkan kredit kepada FG98 / Dylux
-sebagai pemilik / pembuat asli SENNA BOT, dan tetap mengikuti ketentuan
-lisensi asli SENNA BOT beserta ketentuan tambahan dari pemilik asli.
-
-Beberapa bagian pada NS Agent telah mengalami perubahan, refactor,
-penambahan fitur, dan penyesuaian struktur agar sesuai dengan arsitektur
-TypeScript, termasuk namun tidak terbatas pada:
-
-1. Pemisahan core AI agent ke dalam folder lib/agent.
-2. Penambahan sistem AI agent.
-3. Penambahan Telegram bridge.
-4. Penambahan provider router.
-5. Penambahan task queue.
-6. Penambahan JID/LID resolver.
-7. Perapihan konfigurasi publik.
-8. Pembersihan runtime data, API key, token, database, dan session dari
-   versi publik.
-9. Penyesuaian struktur kode agar lebih rapi untuk pengembangan berbasis
-   TypeScript.
-
-=================================================================
-IZIN PENGGUNAAN
-=================================================================
+1. Izin Penggunaan
 
 Pengguna diperbolehkan untuk:
 
-1. Menggunakan software ini untuk keperluan pribadi, edukasi,
-   pembelajaran, eksperimen, atau penggunaan privat.
+- Menggunakan software ini untuk keperluan pribadi, edukasi, pembelajaran, atau eksperimen.
+- Memodifikasi kode sumber.
+- Membagikan kode asli maupun kode yang sudah dimodifikasi.
+- Membuat fork dari proyek ini.
+- Menyediakan layanan hosting bot selama tetap mematuhi lisensi ini.
 
-2. Memodifikasi kode sumber.
 
-3. Membagikan kode sumber asli maupun versi yang sudah dimodifikasi.
+2. Syarat Wajib
 
-4. Membuat fork dari proyek ini.
+Setiap penggunaan, fork, modifikasi, atau distribusi ulang wajib mematuhi syarat berikut:
 
-5. Menggunakan bot ini untuk layanan hosting, selama tetap mematuhi
-   ketentuan lisensi ini.
+- Kredit kepada FG98 / Dylux sebagai pembuat asli SENNA BOT wajib dipertahankan.
+- Kredit kepada nansoffc sebagai pembuat versi modifikasi NS Agent wajib dipertahankan jika menggunakan versi ini.
+- Copyright notice tidak boleh dihapus.
+- Setiap versi modifikasi harus menyebutkan bahwa proyek tersebut berasal dari SENNA BOT atau NS Agent.
+- Lisensi ini wajib tetap disertakan pada setiap distribusi ulang source code.
 
-=================================================================
-SYARAT WAJIB
-=================================================================
 
-Setiap penggunaan, modifikasi, fork, atau distribusi dari proyek ini
-wajib mematuhi syarat berikut:
+3. Larangan
 
-1. Kode sumber harus tetap berada di bawah ketentuan lisensi yang sama.
+Pengguna dilarang untuk:
 
-2. Kredit kepada pemilik asli, yaitu FG98 / Dylux, wajib dipertahankan.
+- Menjual langsung source code ini, baik versi asli maupun versi modifikasi.
+- Mendistribusikan proyek ini sebagai produk komersial mandiri tanpa izin eksplisit dari FG98 / Dylux.
+- Mengganti nama proyek untuk mengklaimnya sebagai karya asli sepenuhnya.
+- Menghapus atau menyembunyikan asal proyek dari SENNA BOT.
+- Menghapus kredit FG98 / Dylux atau nansoffc.
+- Menggunakan proyek ini untuk spam, penipuan, pencurian data, malware, penyalahgunaan akun, atau aktivitas ilegal lainnya.
 
-3. Kredit kepada pembuat versi modifikasi, yaitu nansoffc, tidak boleh
-   dihapus dari versi modifikasi ini.
 
-4. Pemberitahuan copyright tidak boleh dihapus.
+4. Layanan Hosting
 
-5. Setiap versi yang dimodifikasi wajib menyatakan dengan jelas bahwa
-   versi tersebut adalah hasil modifikasi.
+Layanan hosting bot diperbolehkan selama:
 
-6. Proyek ini tidak boleh dipublikasikan ulang seolah-olah merupakan
-   karya asli sepenuhnya dari pihak yang melakukan modifikasi.
+- Source code tetap tersedia secara publik.
+- Lisensi ini tetap disertakan.
+- Kredit kepada FG98 / Dylux tetap dicantumkan.
+- Kredit kepada nansoffc tetap dicantumkan jika menggunakan NS Agent.
+- Source code tidak dijual langsung tanpa izin pemilik asli.
 
-7. Nama, kredit, riwayat, dan sumber asli proyek harus tetap disebutkan
-   secara jelas pada README, LICENSE, atau dokumentasi proyek.
 
-8. Jika proyek ini diubah, dipublikasikan ulang, atau dibuat fork,
-   perubahan tersebut harus tetap mencantumkan bahwa SENNA BOT adalah
-   basis awal proyek.
-
-9. Jika proyek ini dikembangkan lebih lanjut, lisensi ini tetap harus
-   disertakan dalam repository atau distribusi source code.
-
-=================================================================
-BATASAN TAMBAHAN
-=================================================================
-
-1. Dilarang keras menjual langsung kode sumber proyek ini, baik versi
-   asli maupun versi yang sudah dimodifikasi.
-
-2. Dilarang mendistribusikan software ini sebagai produk komersial
-   mandiri tanpa izin tertulis atau izin eksplisit dari pemilik asli.
-
-3. Dilarang mengganti nama proyek untuk mendistribusikannya seolah-olah
-   proyek tersebut adalah ciptaan asli sepenuhnya.
-
-4. Penggunaan komersial, termasuk menjual kode, menjual akses source
-   code, atau redistribusi berbayar, membutuhkan izin eksplisit dari
-   pemilik asli FG98 / Dylux.
-
-5. Dilarang menghapus atau menyembunyikan informasi bahwa proyek ini
-   berasal dari SENNA BOT.
-
-6. Dilarang menghapus atau menyembunyikan informasi bahwa NS Agent adalah
-   versi modifikasi yang dibuat oleh nansoffc.
-
-7. Dilarang menggunakan proyek ini untuk menipu, menyalahgunakan akun,
-   mencuri data, menyebarkan malware, melakukan spam, atau aktivitas lain
-   yang melanggar hukum maupun ketentuan layanan pihak ketiga.
-
-=================================================================
-LAYANAN HOSTING
-=================================================================
-
-Diperbolehkan menyediakan layanan hosting untuk bot ini, dengan syarat:
-
-1. Kode sumber tetap tersedia secara publik.
-
-2. Lisensi ini tetap disertakan.
-
-3. Kredit kepada FG98 / Dylux tetap dipertahankan.
-
-4. Kredit kepada nansoffc sebagai pembuat versi modifikasi tetap
-   dipertahankan pada versi NS Agent.
-
-5. Layanan hosting tidak boleh mengklaim bahwa source code ini adalah
-   karya asli sepenuhnya dari penyedia layanan hosting.
-
-6. Layanan hosting tidak boleh menjual source code secara langsung tanpa
-   izin eksplisit dari pemilik asli.
-
-7. Pengguna layanan hosting harus diberi informasi bahwa proyek ini
-   berdasarkan SENNA BOT dan dimodifikasi menjadi NS Agent.
-
-=================================================================
-PEMBERITAHUAN MODIFIKASI
-=================================================================
-
-Repository ini bukan repository asli SENNA BOT.
-
-NS Agent adalah versi modifikasi yang dibuat berdasarkan SENNA BOT.
-
-SENNA BOT dibuat menggunakan JavaScript ESM.
-
-NS Agent dibuat dan dikembangkan menggunakan TypeScript.
-
-Beberapa perubahan utama pada versi ini antara lain:
-
-1. Penambahan sistem AI agent.
-2. Penambahan integrasi Telegram bridge.
-3. Pemisahan core AI agent ke dalam folder lib/agent.
-4. Penambahan provider router dan task queue.
-5. Penambahan sistem JID/LID resolver.
-6. Perapihan konfigurasi.
-7. Penghapusan API key, token, session, database, dan runtime data dari
-   versi publik.
-8. Pembersihan struktur agar lebih aman untuk dipublikasikan di GitHub.
-9. Penyesuaian beberapa bagian dari JavaScript ESM ke TypeScript.
-10. Perapihan sebagian struktur proyek agar lebih mudah dikembangkan.
-
-Versi modifikasi ini telah mendapatkan izin publikasi dari pemilik
-script asli.
-
-=================================================================
-KREDIT
-=================================================================
-
-Kredit utama:
+5. Kredit
 
 Original Project:
 SENNA BOT
@@ -209,85 +74,23 @@ NS Agent
 Modified by:
 nansoffc
 
-Terima kasih kepada FG98 / Dylux sebagai pemilik / pembuat asli SENNA BOT
-yang telah mengizinkan versi modifikasi ini untuk dipublikasikan.
+Terima kasih kepada FG98 / Dylux yang telah mengizinkan versi modifikasi ini untuk dipublikasikan.
 
-Kredit kepada pemilik asli tidak boleh dihapus dari proyek ini maupun
-turunan proyek ini.
 
-=================================================================
-TANGGUNG JAWAB
-=================================================================
+6. Disclaimer
 
-Software ini disediakan "APA ADANYA", tanpa jaminan apa pun.
+Software ini disediakan apa adanya, tanpa jaminan apa pun.
 
-Pemilik asli, pembuat versi modifikasi, dan kontributor tidak
-bertanggung jawab atas:
+Pemilik asli, pembuat versi modifikasi, dan kontributor tidak bertanggung jawab atas kerusakan, kehilangan data, pemblokiran akun, penyalahgunaan, pelanggaran aturan platform, atau masalah lain yang muncul akibat penggunaan software ini.
 
-1. Kerusakan sistem.
-2. Kehilangan data.
-3. Pemblokiran akun.
-4. Penyalahgunaan bot.
-5. Pelanggaran ketentuan layanan pihak ketiga.
-6. Kerugian langsung maupun tidak langsung akibat penggunaan software ini.
-7. Masalah keamanan yang muncul akibat konfigurasi pengguna sendiri.
-8. Penggunaan API, token, session, atau credential pribadi oleh pengguna.
-9. Penyalahgunaan fitur AI agent, WhatsApp bot, Telegram bridge, atau
-   fitur lain yang terdapat dalam proyek ini.
+Pengguna bertanggung jawab penuh atas cara menggunakan software ini.
 
-Pengguna bertanggung jawab penuh atas cara penggunaan software ini.
 
-Pengguna wajib memastikan bahwa penggunaan software ini tidak melanggar
-hukum, aturan platform, ketentuan layanan WhatsApp, Telegram, penyedia AI,
-penyedia hosting, maupun pihak ketiga lainnya.
+7. Izin Komersial
 
-=================================================================
-PERIZINAN KOMERSIAL
-=================================================================
-
-Untuk izin penggunaan komersial, redistribusi berbayar, penjualan source
-code, atau penggunaan di luar ketentuan lisensi ini, hubungi pemilik asli:
+Untuk penggunaan komersial, penjualan source code, redistribusi berbayar, atau izin khusus lainnya, hubungi pemilik asli:
 
 FG98 / Dylux
 
-Penggunaan komersial tanpa izin eksplisit dari pemilik asli tidak
-diperbolehkan.
 
-=================================================================
-KETENTUAN UNTUK FORK DAN MODIFIKASI LANJUTAN
-=================================================================
-
-Pihak yang membuat fork atau modifikasi lanjutan dari proyek ini wajib:
-
-1. Tetap mencantumkan SENNA BOT sebagai basis awal.
-2. Tetap mencantumkan FG98 / Dylux sebagai pemilik / pembuat asli.
-3. Tetap mencantumkan NS Agent dan nansoffc jika menggunakan bagian dari
-   versi modifikasi ini.
-4. Menyatakan dengan jelas perubahan yang dilakukan.
-5. Menyertakan lisensi ini.
-6. Tidak menghapus copyright notice.
-7. Tidak mengklaim proyek ini sebagai karya asli sepenuhnya.
-8. Tidak menjual source code tanpa izin eksplisit dari pemilik asli.
-
-=================================================================
-PENUTUP
-=================================================================
-
-Dengan menggunakan, menyalin, memodifikasi, membagikan, melakukan fork,
-menghosting, atau menjalankan software ini, pengguna dianggap telah
-membaca, memahami, dan menyetujui seluruh ketentuan dalam lisensi ini.
-
-Jika pengguna tidak setuju dengan ketentuan lisensi ini, maka pengguna
-tidak diperbolehkan menggunakan, menyalin, memodifikasi, membagikan,
-menghosting, atau mendistribusikan software ini.
-
-=================================================================
-
-NS Agent
-Modified Version Based on SENNA BOT
-
-Original Author:
-FG98 / Dylux
-
-Modified by:
-nansoffc
+Dengan menggunakan, menyalin, memodifikasi, membagikan, melakukan fork, menghosting, atau menjalankan software ini, pengguna dianggap telah membaca dan menyetujui lisensi ini.
